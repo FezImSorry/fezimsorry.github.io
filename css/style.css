@@ -168,7 +168,6 @@
 
   .contactInfo {
     position: absolute;
-    display: inline-block;
     top: 72.5%;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -588,9 +587,12 @@
     .contactInfo {
       position: relative;
       top: 31.65%;
+      left: 55%;
       font-size: 16px;
       line-height: 2.7;
       padding-bottom: 50px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .contactInfo img {
