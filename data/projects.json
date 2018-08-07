@@ -1,0 +1,92 @@
+{
+  "projects" : [
+    {
+      "name" : "Universal Finance Manager",
+      "type" : "University Project",
+      "field" : "Software Engineering",
+      "image" : "images/project_0.png",
+      "description" : "Android application that provides comprehensive tracking and budgeting of personal finance. Stores user data in a local Room database and utilizes Dagger dependency injection. Made in an Agile/Scrum development cycle. In a 5-man dev team, I acted as Creative Director/Leader, and as a primary developer.",
+      "tags" : [ "Java SE 9", "Android SDK", "XML", "Dagger", "Scrum"]
+    },
+    {
+      "name" : "Accountabillibuddy",
+      "type" : "University Project",
+      "field" : "Software Engineering",
+      "image" : "images/project_1.png",
+      "description" : "Desktop application that predicts the profitability of stock market investments. Stock market data is fetched from the Yahoo! Finance API via a third-party API. User data is stored in a PostgreSQL database hosted on AWS's Relational Database Service. My roles were full-stack development, technical writing, and graphic design.",
+      "tags" : ["Java SE 8", "FXML", "Yahoo! Finance API", "PostgreSQL", "AWS RDS"]
+    },
+    {
+      "name" : "MEVN Real-Time Chat",
+      "type" : "Personal Project",
+      "field" : "Web Engineering",
+      "image" : "images/project_2.png",
+      "description" : "WIP. Real-time cross-browser chat application. Single-page application developed leveraging the MEVN stack and Socket.io. Paramount learning experience. Solidified my foundation with a wide variety of JavaScript frameworks and web development technologies.",
+      "tags" : ["HTML5", "CSS3", "MongoDB", "Express.js", "Vue.js", "Node.js", "Socket.io"]
+    },
+    {
+      "name" : "Tsarbucks",
+      "type" : "Personal Project",
+      "field" : "Web Engineering",
+      "image" : "images/project_3.png",
+      "description" : "TBA",
+      "tags" : ["HTML5", "CSS3", "Bootstrap", "JavaScript", "PHP", "MySQL"]
+    },
+    {
+      "name" : "Portfolio Website",
+      "type" : "Personal Project",
+      "field" : "Web Engineering",
+      "image" : "images/project_4.png",
+      "description" : "This website! Intended to be lightweight and simple to use. Aside from extremely minimal styling from Bootstrap, no other frameworks were used. WIP, I plan to use React.js to pass content to the view dynamically to ease maintenance and blogging updates.",
+      "tags" : ["HTML5", "CSS3", "JavaScript ES6", "jQuery", "JSON", "React.js", "Gatsby.js"]
+    },
+    {
+      "name" : "Unity 3D Platformer",
+      "type" : "Personal Project",
+      "field" : "Game Development",
+      "image" : "images/project_5.png",
+      "description" : "A simple 3D environment which emulates 2D platforming. The player controls a ball to collect coins scattered throughout the level. Allowed me to experiment with 3D physics progamming, lighting, texturing, and sound effects.",
+      "tags" : ["Javascript", "Unity"]
+    },
+    {
+      "name" : "Unity 2D Platformer",
+      "type" : "Personal Project",
+      "field" : "Game Development",
+      "image" : "images/project_6.png",
+      "description" : "A purely 2D platforming environment. WIP as I expand its features into a fully-fledged video game. Currently uses placeholder assets from Unity Asset Store and existing video games. Gave me a taste of sprite animation, background parallaxing, respawning, and shooting.",
+      "tags" : ["C#", "Unity"]
+    },
+    {
+      "name" : "NavMesh Tutorial",
+      "type" : "University Project",
+      "field" : "AI (Pathfinding)",
+      "image" : "images/project_7.png",
+      "description" : "Created by following the steps of Brackey's NavMesh Tutorial. Features an agent that automatically avoids obstacles (both static and dynamic) in a 3D space using Unity's inbuilt NavMesh components. By clicking at locations on the map, the agent calculates the best unobstructed path and moves there.",
+      "tags" : ["C#", "Unity", "NavMeshComponents"]
+    },
+    {
+      "name" : "Q-Learning w/ Atari Breakout",
+      "type" : "Personal Project",
+      "field" : "AI (Machine Learning)",
+      "image" : "images/project_8.png",
+      "description" : "TBA",
+      "tags" : ["Python", "TensorFlow", "OpenAI Gym", "Jupyter Notebook"]
+    },
+    {
+      "name" : "TensorFlow Image Classifier",
+      "type" : "University Project",
+      "field" : "AI (Machine Learning)",
+      "image" : "images/project_9.png",
+      "description" : "Inspired by the TensorFlow for Poets Codelab by Google Developers. Trained the neural network using the Inception V3 Architecture on a repository of rabbit images. By manipulating training parameters, the model achieved an accuracy of up to 99% in distinguishing between four rabbit breeds as well as pictures of unknown objects.",
+      "tags" : ["Python", "TensorFlow"]
+    }, 
+    {
+      "name" : "Swing Breakout Game",
+      "type" : "University Project",
+      "field" : "Object Oriented Programming",
+      "image" : "images/project_10.png",
+      "description" : "Break-Out style video game with a twist! This time there's two projectiles, each with their own physics, balanced on a swing. Letting either projectile fall decrements the lives counter. This was made to practice OOP and test the limits of Java's Swing library. Yes, the 'Swing' is a double entendre.",
+      "tags" : ["Java SE8", "Swing"]
+    },
+  ]
+}
