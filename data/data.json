@@ -68,7 +68,7 @@
       "type" : "University Project",
       "field" : "AI (Pathfinding)",
       "image" : "images/project_7.png",
-      "description" : "Created by following the steps of <a href=\"https://github.com/Brackeys/NavMesh-Tutorial\" target=\"_blank\"Brackey's NavMesh Tutorial</a>. Features an agent that automatically avoids obstacles (both static and dynamic) in a 3D space using Unity's inbuilt <a href=\"https://docs.unity3d.com/Manual/NavMesh-BuildingComponents.html\" target=\"_blank\">NavMesh components</a>. By clicking at locations on the map, the agent calculates the best unobstructed path and moves there.",
+      "description" : "Created by following the steps of <a href=\"https://github.com/Brackeys/NavMesh-Tutorial\" target=\"_blank\"Brackey's NavMesh Tutorial<\/a>. Features an agent that automatically avoids obstacles (both static and dynamic) in a 3D space using Unity's inbuilt <a href=\"https://docs.unity3d.com/Manual/NavMesh-BuildingComponents.html\" target=\"_blank\">NavMesh components<\/a>. By clicking at locations on the map, the agent calculates the best unobstructed path and moves there.",
       "tags" : ["C#", "Unity", "NavMeshComponents"],
       "source" : "https://github.com/FezImSorry/NavMesh_Tutorial"
     },
@@ -77,7 +77,7 @@
       "type" : "Personal Project",
       "field" : "AI (Machine Learning)",
       "image" : "images/project_8.png",
-      "description" : "Trained a neural network to play <a href=\"https://gym.openai.com/envs/Breakout-v0/\" target=\"_blank\">OpenAI Gym's Atari Breakout</a> game environment using TensorFlow. After setting the learning-rate and epsilon-probability and running the simulation for 30 episodes (almost 2 weeks!), the agent started averaging a reward of 145.17. Which essentially means it was better than me at the game.",
+      "description" : "Trained a neural network to play <a href=\"https://gym.openai.com/envs/Breakout-v0/\" target=\"_blank\">OpenAI Gym's Atari Breakout<\/a> game environment using TensorFlow. After setting the learning-rate and epsilon-probability and running the simulation for 30 episodes (almost 2 weeks!), the agent started averaging a reward of 145.17. Which essentially means it was better than me at the game.",
       "tags" : ["Python", "TensorFlow", "OpenAI Gym", "Jupyter Notebook"],
       "source" : "#"
     },
@@ -86,7 +86,7 @@
       "type" : "University Project",
       "field" : "AI (Machine Learning)",
       "image" : "images/project_9.png",
-      "description" : "Inspired by the <a href=\"https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0\" target=\"_blank\">TensorFlow for Poets</a> Codelab by Google Developers. Trained the neural network using the Inception V3 Architecture on a repository of rabbit images. By manipulating training parameters, the model achieved an accuracy of up to 99% in distinguishing between four rabbit breeds as well as pictures of unknown objects.",
+      "description" : "Inspired by the <a href=\"https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0\" target=\"_blank\">TensorFlow for Poets<\/a> Codelab by Google Developers. Trained the neural network using the Inception V3 Architecture on a repository of rabbit images. By manipulating training parameters, the model achieved an accuracy of up to 99% in distinguishing between four rabbit breeds as well as pictures of unknown objects.",
       "tags" : ["Python", "TensorFlow"],
       "source" : "https://github.com/FezImSorry/COMP_469_Artificial_Intelligence/tree/master/Project%204%20Image%20Classifier"
     }, 
