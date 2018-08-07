@@ -79,7 +79,7 @@
       "image" : "images/project_8.png",
       "description" : "Trained a neural network to play <a href=\"https:\/\/gym.openai.com\/envs\/Breakout-v0\/\" target=\"_blank\">OpenAI Gym's Atari Breakout<\/a> game environment using TensorFlow. After setting the learning-rate and epsilon-probability and running the simulation for 30 episodes (almost 2 weeks!), the agent started averaging a reward of 145.17. Which essentially means it was better than me at the game.",
       "tags" : ["Python", "TensorFlow", "OpenAI Gym", "Jupyter Notebook"],
-      "source" : "#"
+      "result" : "download/reinforcement.pdf"
     },
     {
       "name" : "TensorFlow Image Classifier",
