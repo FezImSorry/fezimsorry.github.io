@@ -32,7 +32,7 @@
       "type" : "Personal Project",
       "field" : "Web Engineering",
       "image" : "images/project_3.png",
-      "description" : "A fictional coffee shop's web application. Log in as a customer and place orders from the straight from the menu. Employees can log in and fulfill said orders. Implemented using a PHP and locally hosted MySQL database via XAMPP and phpMyAdmin. ",
+      "description" : "A fictional coffee shop's web application. Log in as a customer and place orders by adding menu items into your shopping cart. Employees can log in and fulfill said orders. Implemented using a PHP and locally hosted MySQL database via XAMPP and phpMyAdmin. ",
       "tags" : ["HTML5", "CSS3", "Bootstrap", "JavaScript", "PHP", "MySQL"],
       "source" : "https://github.com/FezImSorry/Tsarbucks"
     },
