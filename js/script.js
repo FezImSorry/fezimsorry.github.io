@@ -1,7 +1,6 @@
 $(document).ready(function() {
-
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
+	
+	var coll;
 	var pageSaver;
 	var resumeFlag = true;
 
@@ -21,6 +20,7 @@ $(document).ready(function() {
 	request.onload = function() {
 
 		var data = request.response;
+		populateResume(data);
 		populateProjects(data);
 
 	}
@@ -131,7 +131,7 @@ $(document).ready(function() {
 
 			$(".resumeExpandOption").text('Expand All');
 
-			for (i = 0; i < coll.length; i++) {
+			for (var i = 0; i < coll.length; i++) {
 
 		    	var content = coll[i].nextElementSibling;
 
@@ -145,45 +145,10 @@ $(document).ready(function() {
 		}
 	})
 
-	for (i = 0; i < coll.length; i++) {
-	coll[i].addEventListener("click", function() {
-	  
-	  this.classList.toggle("active");
-	  
-	  var content = this.nextElementSibling;
-
-	  if (content.style.maxHeight){
-	    content.style.maxHeight = null;
-	    content.style.opacity = null;
-	    content.style.marginBottom = null;
-
-	    if(checkCollapsed()){
-	      $(".resumeExpandOption").text('Expand All');
-	    }
-	    else {
-	      $(".resumeExpandOption").text('Collapse All');
-	    }
-	  } 
-	  else {
-	    content.style.maxHeight = content.scrollHeight + "px";
-	    content.style.opacity = 1;
-	    content.style.marginBottom = 45 + "px";
-
-	    if(checkCollapsed()){
-	      $(".resumeExpandOption").text('Expand All');
-	    }
-	    else {
-	      $(".resumeExpandOption").text('Collapse All');
-	    }
-	  }
-	});
-	}
-
 	function checkCollapsed(){
 		var flag = true;
-		var j;
 
-		for (j = 0; j < coll.length; j++) {
+		for (var j = 0; j < coll.length; j++) {
 
 			var content = coll[j].nextElementSibling;
 		  
@@ -202,9 +167,7 @@ $(document).ready(function() {
 
 		$(".resumeExpandOption").text('Collapse All');
 
-		var j;
-
-		for (j = 0; j < coll.length; j++) {
+		for (var j = 0; j < coll.length; j++) {
 
 		    var content = coll[j].nextElementSibling;
 		    
@@ -218,11 +181,105 @@ $(document).ready(function() {
 		}
 	}
 
+	function populateResume(jsonObj) {
+
+		var resume = jsonObj['resume'];
+
+		for(var i = 0; i < resume.length; i++){
+
+			var resumeHeader = document.createElement('button');
+			var resumeContent = document.createElement('div');
+			
+			resumeContentArray = resume[i]['content'].slice();
+
+			resumeHeader.textContent = resume[i].header;
+
+			resumeHeader.className = "collapsible";
+			resumeContent.className = "content";
+
+			for(var j = 0; j < resumeContentArray.length; j++){
+
+				var resumeContentInner = document.createElement('p');
+				var resumeTitle = document.createElement('strong');
+				var resumeDate = document.createElement('div');
+				var resumeSubtitle = document.createElement('div');
+				var resumeList = document.createElement('ul');
+
+				var resumeListItem = resume[i]['content'][j]['list'].slice();
+
+				resumeTitle.innerHTML = resume[i]['content'][j].title;
+				resumeDate.textContent = resume[i]['content'][j].date;
+				resumeSubtitle.textContent = resume[i]['content'][j].subtitle;
+
+				resumeContentInner.className = "resumeContent";
+				resumeTitle.className = "resumeStrong";
+				resumeDate.className = "resumeDate";
+				resumeList.className = "resumeList";
+			
+				resumeContentInner.appendChild(resumeTitle);
+				resumeContentInner.appendChild(resumeDate);
+				resumeContentInner.appendChild(resumeSubtitle);
+
+				for(var k = 0; k < resumeListItem.length; k++){
+
+					resumeListItem[k] = document.createElement('li');
+					resumeListItem[k].textContent = resume[i]['content'][j]['list'][k];
+					resumeListItem[k].className = "resumeListItem";
+					resumeList.appendChild(resumeListItem[k]);
+				}
+
+				resumeContent.appendChild(resumeContentInner);
+				resumeContent.appendChild(resumeList);
+
+			}
+
+			document.getElementById("resumeBody").appendChild(resumeHeader);
+			document.getElementById("resumeBody").appendChild(resumeContent);
+		}
+
+		coll = document.getElementsByClassName("collapsible");
+
+		for (var i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+			  
+			  this.classList.toggle("active");
+			  
+			  var content = this.nextElementSibling;
+
+			  if (content.style.maxHeight){
+			    content.style.maxHeight = null;
+			    content.style.opacity = null;
+			    content.style.marginBottom = null;
+
+			    if(checkCollapsed()){
+			      $(".resumeExpandOption").text('Expand All');
+			    }
+			    else {
+			      $(".resumeExpandOption").text('Collapse All');
+			    }
+			  } 
+			  else {
+			    content.style.maxHeight = content.scrollHeight + "px";
+			    content.style.opacity = 1;
+			    content.style.marginBottom = 45 + "px";
+
+			    if(checkCollapsed()){
+			      $(".resumeExpandOption").text('Expand All');
+			    }
+			    else {
+			      $(".resumeExpandOption").text('Collapse All');
+			    }
+			  }
+			});
+		}
+
+	}
+
 	function populateProjects(jsonObj) {
 
 		var projects = jsonObj['projects'];
 
-		for(var i = 0; i <= projects.length; i++) {
+		for(var i = 0; i < projects.length; i++) {
 
 			var projectContainer = document.createElement('div');
 			var projectImageContainer = document.createElement('div');
