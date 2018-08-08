@@ -1,4 +1,108 @@
 {
+  "resume" : [
+    {
+      "header" : "Education",
+      "content" : [
+        {
+          "title" : "California State University, Northrdige",
+          "subtitle" : "Bachelor of Science (B.S.), Computer Science",
+          "date" : "May 2018",
+          "list" : [
+            "Earned a 3.54 cumulative GPA, designated into the Dean's List", 
+            "Focus towards Full-Stack Web, Android Development, and Reinforcement Learning", 
+            "Part of Phi Beta Delta Honor Society for accomplished foreign & exchange students"
+          ]
+        }
+      ]
+    },
+    {
+      "header" : "Experience",
+      "content" : [
+        {
+          "title" : "International Textiles Pvt. Ltd'",
+          "subtitle" : "Internship - Information Systems Dept.",
+          "date" : "June - August 2015",
+          "list" : [
+            "Implemented front-end functionality for the company's web-based application", 
+            "Designed back-end database structure and SQL queries for the employee portal app", 
+            "Involved use of native JavaScript, JQuery, C#, and SQL Server"
+          ]
+        },
+        {
+          "title" : "Muller & Phipps",
+          "subtitle" : "Internship - Information Technology",
+          "date" : "May - August 2011",
+          "list" : [
+            "Engaged in the I.T. Department's SOP in routinely monitoring the firm's LAN", 
+            "Collected invoice data from competing brands to optimize the company's own invoice", 
+            "Communicated with employee's of other departments to provide I.T. solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "header" : "Skills",
+      "content" : [
+        {
+          "title" : "Computer Languages & Frameworks",
+          "list" : [
+            "Fluent: C++, C#, Java SE9, JavaScript ES6, jQuery, Verilog HDL", 
+            "Intermediate: React.js, Node.js, Express.js, PHP, MySQL, MIPS Assembly", 
+            "Beginner: Vue.js, Socket.io, Python, Clojure"
+          ]
+        },
+        {
+          "title" : "Computer Software & Apps:",
+          "list" : [
+            "Fluent: Unity, Android SDK, GitHub, Microsoft Office", 
+            "Intermediate: Bash Unix Shell, phpMyAdmin, XAMPP, Photoshop", 
+            "Beginner: TensorFlow, PostgreSQL, Dreamweaver, Premiere Pro"
+          ]
+        },
+        {
+          "title" : "Natural Languages:",
+          "list" : [
+            "Fluent (Native): English, Urdu", 
+            "Beginner (Learning): Spanish", 
+          ]
+        }
+      ]
+    },
+    {
+      "header" : "Extracurricular & Volunteer Work",
+      "content" : [
+        {
+          "title" : "Matador Emerging Technology & Arts Lab",
+          "subtitle" : "California State University, Northridge",
+          "date" : "January 2017 - January 2018",
+          "list" : [
+            "Web development courses and meetups hosted by CSUN's META+LAB", 
+            "Completed practice exercises involving PHP, phpMyAdmin DB, and SQL", 
+            "Visitations to META+Lab's head office to contribute to ongoing projects there"
+          ]
+        },
+        {
+          "title" : "The Hague International Model United Nations",
+          "subtitle" : "Karachi American School",
+          "date" : " January 2012",
+          "list" : [
+            "Delegated for Pakistan at the international MUN hosted at Den Haag, Netherlands", 
+            "Debated on the causes of wealth disparity in Pakistan", 
+            "Discussed with other delegates about policies to support economic growth"
+          ]
+        },
+        {
+          "title" : "UNESCO World Heritage Centre",
+          "subtitle" : "Volunteer",
+          "date" : "June 2010",
+          "list" : [
+            "Handcrafted goods and helpful items to empower victims of the 2010 Pakistan floods", 
+            "Promoted the local crafts and souvenirs to fundraise at on-site craft shops", 
+          ]
+        }
+      ]
+    }
+  ],
   "projects" : [
     {
       "name" : "Universal Finance Manager",
