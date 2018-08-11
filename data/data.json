@@ -145,7 +145,7 @@
       "type" : "Personal Project",
       "field" : "Web Engineering",
       "image" : "images/project_4.png",
-      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Compliant with W3C's HTML5 and CSS3 standard, as well as a 90/100 PageSpeed score. Currently working towards restructuring the site around React.js and Gatsby.js",
+      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Compliant with W3C's HTML5 and CSS3 standard, as well as a 90/100 PageSpeed score.",
       "tags" : ["HTML5", "CSS3", "JavaScript", "jQuery", "JSON"],
       "source" : "https://github.com/FezImSorry/fezimsorry.github.io"
     },
