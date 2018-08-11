@@ -63,7 +63,7 @@
           "title" : "Natural Languages:",
           "list" : [
             "Fluent (Native): English, Urdu", 
-            "Beginner (Learning): Spanish" 
+            "Beginner (Learning): Spanish", 
           ]
         }
       ]
@@ -97,7 +97,7 @@
           "date" : "June 2010",
           "list" : [
             "Handcrafted goods and helpful items to empower victims of the 2010 Pakistan floods", 
-            "Promoted the local crafts and souvenirs to fundraise at on-site craft shops"
+            "Promoted the local crafts and souvenirs to fundraise at on-site craft shops", 
           ]
         }
       ]
@@ -145,8 +145,8 @@
       "type" : "Personal Project",
       "field" : "Web Engineering",
       "image" : "images/project_4.png",
-      "description" : "This website! Content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Aside from extremely minimal styling from Bootstrap, no other frameworks were used. WIP, the blog will be implemented in React.js and Gatsby.js to keep the site static.",
-      "tags" : ["HTML5", "CSS3", "JavaScript ES6", "jQuery", "JSON", "React.js", "Gatsby.js"],
+      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Compliant with W3C's HTML5 and CSS3 standard, as well as a 90/100 PageSpeed score. Currently working towards restructuring the site around React.js and Gatsby.js",
+      "tags" : ["HTML5", "CSS3", "JavaScript", "jQuery", "JSON"],
       "source" : "https://github.com/FezImSorry/fezimsorry.github.io"
     },
     {
