@@ -141,11 +141,11 @@
       "source" : "https://github.com/FezImSorry/Tsarbucks"
     },
     {
-      "name" : "Portfolio Website",
+      "name" : "Online Portfolio",
       "type" : "Personal Project",
       "field" : "Web Engineering",
       "image" : "images/project_4.png",
-      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Compliant with W3C's HTML5 and CSS3 standard, as well as a 90/100 PageSpeed score. Currently working towards restructuring the site around React.js and Gatsby.js",
+      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Completely accordant with W3C's <a href=\"https:\/\/validator.w3.org\/nu\/?doc=https%3A%2F%2Ffezimsorry.github.io%2F\">HTML5<\/a> and <a href=\"https:\/\/jigsaw.w3.org\/css-validator\/validator?uri=https%3A%2F%2Ffezimsorry.github.io&profile=css3svg\">CSS3<\/a> standard, as well as a 90+/100 <a href=\"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/?url=https%3A%2F%2Ffezimsorry.github.io%2F\">PageSpeed score<\/a>.",
       "tags" : ["HTML5", "CSS3", "JavaScript", "jQuery", "JSON"],
       "source" : "https://github.com/FezImSorry/fezimsorry.github.io"
     },
@@ -202,6 +202,26 @@
       "description" : "Break-Out style video game with a twist! This time there's two projectiles, each with their own physics, balanced on a swing. Letting either projectile fall decrements the lives counter. This was made to practice OOP and test the limits of Java's Swing library. Yes, the 'Swing' is a double entendre.",
       "tags" : ["Java SE8", "Swing"],
       "source" : "https://github.com/FezImSorry/Java_Swing_Brick-Breaker"
+    }
+  ],
+  "blog" : [
+    {
+      "title" : "First Test Blog Post",
+      "date" : "2017-08-10",
+      "tags" : ["Pandas"],
+      "content" : "<p>Pandas are really sweet.</p> <p>Here's a video of a panda eating sweets.</p> <iframe src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
+    },
+    {
+      "title" : "Second Test Blog Post",
+      "date" : "2017-08-21",
+      "tags" : ["Pandas", "Bananas"],
+      "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <h2>Do Pandas eat bananas?</h2> <p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
+    },
+    {
+      "title" : "Third Blog Post",
+      "date" : "2017-08-25",
+      "tags" : ["Testing", "Tired", "Yay"],
+      "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
     }
   ]
 }
