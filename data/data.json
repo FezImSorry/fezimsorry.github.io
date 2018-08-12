@@ -203,5 +203,25 @@
       "tags" : ["Java SE8", "Swing"],
       "source" : "https://github.com/FezImSorry/Java_Swing_Brick-Breaker"
     }
+  ],
+  "blog" : [
+    {
+      "title" : "First Test Blog Post",
+      "date" : "2017-07-10",
+      "tags" : ["Pandas"],
+      "content" : ""
+    },
+    {
+      "title" : "Second Test Blog Post",
+      "date" : "2017-07-21",
+      "tags" : ["Pandas", "Bananas"],
+      "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><h2>Do Pandas eat bananas?</h2><p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
+    },
+    {
+      "title" : "Third Blog Post",
+      "date" : "2017-07-25",
+      "tags" : ["Testing", "Tired", "Yay"],
+      "content" : ""
+    }
   ]
 }
