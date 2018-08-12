@@ -207,19 +207,19 @@
   "blog" : [
     {
       "title" : "First Test Blog Post",
-      "date" : "2017-07-10",
+      "date" : "2017-08-10",
       "tags" : ["Pandas"],
       "content" : "<p>Pandas are really sweet.</p> <p>Here's a video of a panda eating sweets.</p> <iframe src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
     },
     {
       "title" : "Second Test Blog Post",
-      "date" : "2017-07-21",
+      "date" : "2017-08-21",
       "tags" : ["Pandas", "Bananas"],
-      "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><h2>Do Pandas eat bananas?</h2><p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
+      "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <h2>Do Pandas eat bananas?</h2> <p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
     },
     {
       "title" : "Third Blog Post",
-      "date" : "2017-07-25",
+      "date" : "2017-08-25",
       "tags" : ["Testing", "Tired", "Yay"],
       "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
     }
