@@ -3,7 +3,220 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/headerstyle.css">
+    
+    <style>
+
+      * {
+        margin: 0;
+      }
+
+      html, body {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .navBar {
+        height: 10%;
+        padding-top: 30px;
+        padding-bottom: 70px;
+        text-align: center;
+      }
+
+      .navBar a {
+        color: black;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 75px;
+        margin-left: 75px;
+        transition: color 120ms;
+        padding-bottom: 16px;
+        -webkit-padding-after: 17px;
+        border-bottom-width: 3px;
+      }
+
+      .navBar a:hover {
+        color: #00c47c;
+        text-decoration: none;
+      }
+
+      .navBar a:active {
+        color: #1e00a5;
+      }
+
+      .navBar a:first-child { 
+        margin-left: 0px;
+      }
+
+      .navBar a:nth-child(4n) { 
+        margin-right: 0px;
+      }
+
+      .highlight {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        margin-top: 15px;
+        height: 3px;
+        opacity: 0;
+      }
+
+      .horizontalScrollable {
+        height: 90%;
+        overflow: hidden;
+        white-space: nowrap;
+        background-color: lightgrey;
+      }
+
+      .pageBody {
+        position:relative;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        display: inline-block;
+        background-color: white;
+        white-space: normal;
+      }
+
+      .innerBody {
+        position: relative;
+        left: 50%;
+        width: 710px;
+        height: 100%;
+        min-height: 895px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+      }
+
+      .homeHeader {
+        position: absolute;
+        top: 8%;
+        line-height: 1.4;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        width: 100%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+      }
+
+      .name {
+        display: block;
+        height: 1.3em;
+        margin-bottom: .2em;
+        cursor: pointer;
+        transition: color 120ms;
+        font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+      }
+
+      .name:hover {
+        color: #00c47c;
+      }
+
+      .title {
+        font-weight: bold;
+        display: block;
+        font-size: .6em;
+        height: 1em;
+        letter-spacing: .2em;
+        margin-bottom: 33px;
+      }
+
+      .break {
+        margin-right: auto;
+        margin-left: auto;
+        background-color: black;
+        width: 40px;
+        height: 5px;
+      }
+
+      .introduction {
+        position: absolute;
+        top: 32.45%;;
+        line-height: 1.6;
+        text-align: justify;
+        font-family: Georgia, serif;
+        font-size: 19px;
+      }
+
+      .introductionSecondary {
+        position: absolute;
+        top: 55%;
+        line-height: 1.6;
+        text-align: justify;
+        font-family: Georgia, serif;
+        font-size: 16px;
+      }
+
+      .contact {
+        position: absolute;
+        top: 64%;
+        letter-spacing: .05em;
+        line-height: 1.4;
+        text-align: center;
+        font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+      }
+
+      .contactInfo {
+        position: absolute;
+        top: 72.5%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        font-family: Georgia, serif;
+        font-size: 20px;
+        line-height: 2.7;
+        padding-bottom: 50px;
+      }
+
+      .contactInfo img {
+        height: 40px;
+        width: 40px;
+      }
+
+      .contactInfo a {
+        padding-left: 10px;
+        font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
+        color: black;
+        transition: color 120ms;
+      }
+
+      .contactInfo a:hover {
+        color: #00c47c;
+        text-decoration: none;
+      }
+
+      .contactInfo a:active {
+        color: #1e00a5;
+        transition: none;
+      }
+  
+    </style>
+    
     <title>Faiz Ansari</title>
   </head>
   <body>
