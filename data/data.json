@@ -145,7 +145,7 @@
       "type" : "Personal Project",
       "field" : "Web Engineering",
       "image" : "images/project_4.png",
-      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Completely accordant with W3C's <a href=\"https:\/\/validator.w3.org\/nu\/?doc=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">HTML5<\/a> and <a href=\"https:\/\/jigsaw.w3.org\/css-validator\/validator?uri=https%3A%2F%2Ffezimsorry.github.io%2Fcss%2Fstyle.css&profile=css3svg\" target=\"_blank\">CSS3<\/a> standard, as well as a 90+/100 <a href=\"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/?url=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">PageSpeed score<\/a>.",
+      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Completely accordant with W3C's <a href=\"https:\/\/validator.w3.org\/nu\/?doc=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">HTML5<\/a> and <a href=\"https:\/\/jigsaw.w3.org\/css-validator\/validator?uri=https%3A%2F%2Ffezimsorry.github.io%2Fcss%2Fstyle.css&profile=css3svg\" target=\"_blank\">CSS3<\/a> standard, as well as a 80+/100 <a href=\"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/?url=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">PageSpeed score<\/a>.",
       "tags" : ["HTML5", "CSS3", "JavaScript", "jQuery", "JSON"],
       "source" : "https://github.com/FezImSorry/fezimsorry.github.io"
     },
