@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: fezimsorry.github.io
-Token: 166cdd06af0a845b6bb46ccfe943b2da1df28d2aa2fb69c347a12117e7f015ed
