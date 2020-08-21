@@ -8,9 +8,9 @@
           "subtitle" : "Bachelor of Science (B.S.), Computer Science",
           "date" : "May 2018",
           "list" : [
-            "Earned a 3.54 cumulative GPA, designated into the Dean's List", 
-            "Focus towards Full-Stack Web, Android Development, and Reinforcement Learning", 
-            "Part of Phi Beta Delta Honor Society for accomplished foreign & exchange students"
+            "3.54 cumulative GPA, designated into the Dean's List", 
+            "Focused towards Deep Learning, Reinforcement Learning, and Computer Vision",
+            "Part of Phi Beta Delta Honor Society for international studentsin high-standing"
           ]
         }
       ]
@@ -43,26 +43,26 @@
       "header" : "Skills",
       "content" : [
         {
-          "title" : "Computer Languages & Frameworks",
+          "title" : "Development Languages, Frameworks, & Techniques:",
           "list" : [
-            "Fluent: C++, C#, Java SE9, JavaScript ES6, jQuery, Verilog HDL", 
-            "Intermediate: React.js, Node.js, Express.js, PHP, MySQL, MIPS Assembly", 
-            "Beginner: Vue.js, Socket.io, Python, Clojure"
+            "OOP, Algorithms and Data Structures: C++14, Python 3.6, Java SE9", 
+            "Machine Learning: CNN, LSTM, Q-Learning, TensorFlow, OpenAI Gym, AllenNLP", 
+            "Web Stack: JavaScript ES6, jQuery, React.js, Node.js, Socket.io, PHP, MySQL"
           ]
         },
         {
-          "title" : "Computer Software & Apps:",
+          "title" : "Computer Software & Hardware:",
           "list" : [
-            "Fluent: Unity, Android SDK, GitHub, Microsoft Office", 
-            "Intermediate: Bash Unix Shell, phpMyAdmin, XAMPP, Photoshop", 
-            "Beginner: TensorFlow, PostgreSQL, Dreamweaver, Premiere Pro"
+            "Software Apps: Unity, Android SDK, phpMyAdmin, PostgreSQL, Photoshop", 
+            "Hardware & Assembly: Verilog HDL, MIPS Assembly Language"
           ]
         },
         {
           "title" : "Natural Languages:",
           "list" : [
-            "Fluent (Native): English, Urdu", 
-            "Beginner (Learning): Spanish"
+            "English (Native Fluency)", 
+            "Urdu (Native Fluency)",
+            "Spanish (Beginner, Learning)"
           ]
         }
       ]
