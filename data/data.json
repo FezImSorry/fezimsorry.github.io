@@ -23,7 +23,7 @@
           "subtitle" : "Information Technology Specialist",
           "date" : "January 2019 - Present",
           "list" : [
-            "Implemented immediate technology solutions and provision to personnel.", 
+            "Implemented immediate technology solutions and provision to personnel", 
             "Black-box tested Unix shell scripts for server-side software installation, Munki package distribution, and Active Directory"
           ]
         },
