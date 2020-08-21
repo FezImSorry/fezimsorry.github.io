@@ -36,17 +36,7 @@
             "Designed back-end database structure and SQL queries for the employee portal app", 
             "Involved use of native JavaScript, JQuery, C#, and SQL Server"
           ]
-        }/*,
-        {
-          "title" : "Muller & Phipps",
-          "subtitle" : "Internship - Information Technology",
-          "date" : "May - August 2011",
-          "list" : [
-            "Engaged in the I.T. Department's SOP in routinely monitoring the firm's LAN", 
-            "Collected invoice data from competing brands to optimize the company's own invoice", 
-            "Communicated with employee's of other departments to provide I.T. solutions"
-          ]
-        }*/
+        }
       ]
     },
     {
