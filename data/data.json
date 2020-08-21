@@ -19,16 +19,6 @@
       "header" : "Experience",
       "content" : [
         {
-          "title" : "Bento Box Entertainment'",
-          "subtitle" : "Information Technology Specialist",
-          "date" : "January 2019 - Present",
-          "list" : [
-            "Implemented front-end functionality for the company's web-based application", 
-            "Designed back-end database structure and SQL queries for the employee portal app", 
-            "Involved use of native JavaScript, JQuery, C#, and SQL Server"
-          ]
-        },
-        {
           "title" : "International Textiles Pvt. Ltd'",
           "subtitle" : "Internship - Information Systems Dept.",
           "date" : "June - August 2015",
