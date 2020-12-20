@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: faizansari.com
-Token: dc78b86776bc42a05d4cdaa919c3b66d7f464be86bf4ee5caa03abd76bc32972 
