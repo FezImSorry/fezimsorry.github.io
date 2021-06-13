@@ -1,1 +1,229 @@
-{"resume":[{"header":"Education","content":[{"title":"University of Southern California","subtitle":"Master of Science in Computer Science (Artificial Intelligence)","date":"Expected - May 2023","list":[]},{"title":"California State University, Northridge","subtitle":"Bachelor of Science in Computer Science - Cum Laude","date":"May 2018","list":[]}]},{"header":"Experience","content":[{"title":"Pixerati","subtitle":"Software Engineer - Freelance","date":"August 2020 - May 2021","list":["Implemented and integrated C++ plugins for Maya to read, extract, and package 3D geometric data to be exported during run-time to render in external applications","Ran unit and integration tests to optimize the data extraction process of 3D components in Maya and their consequent reconstruction in a virtual reality environment in an Unreal Engine project"]},{"title":"Bento Box Entertainment","subtitle":"Information Technology Specialist - Full Time","date":"January 2019 - May 2021","list":["Provided hands-on solutions and communicative support for hardware and software to studio personnel. Clients included producers, directors, digital artists, script writers, corporate staff, and IT coworkers","Tested and deployed Unix shell scripts for server-side software installation, Munki package distribution, and Active Directory administration","<a href=\"https://www.imdb.com/name/nm11636236/\" target=\"_blank\">IMDb Show credits (not up to date)</a>"]}]},{"header":"Skills","content":[{"title":"Computer Languages & Frameworks","list":["OOP, Algorithms and Data Structures: C++14, Python 3.6, Java SE9","Machine Learning: CNN, LSTM, Q-Learning, TensorFlow, OpenAI Gym, AllenNLP","Web Stack: JavaScript ES6, AJAX, Node.js, Socket.io, React.js, MySQL, PHP"]},{"title":"Computer Software & Hardware:","list":["Software: Unity, Android SDK, phpMyAdmin, PostgreSQL, Photoshop","Hardware & Assembly: Verilog HDL, MIPS Assembly Language"]},{"title":"Natural Languages:","list":["English - Native Fluency","Urdu - Native Fluency"]}]},{"header":"Extracurricular","content":[{"title":"TreePeople","subtitle":"Volunteer","date":"December 2020","list":["Environmental conservation effort at Paramount Ranch, Agoura Hills, CA","Planted Walnut and Willow tree saplings to restore natural habitat","Weeded harmful grass to prevent the overabundance of natural wildfires"]},{"title":"Los Angeles International Music & Arts Academy","subtitle":"Volunteer Organizer","date":"August 2019","list":["Support event organizer at LAIMA Academy's 2019 summer retreat","Facilitated the organization of a digital animation workshop for primary school children","Tech support for relevant hardware and software"]},{"title":"Matador Emerging Technology & Arts Lab","subtitle":"Backend Development","date":"January 2017 - January 2018","list":["Web development courses and meetups hosted by CSUN's META+LAB","Deployed web services utilized at the university involving Node.js, Express.js, Vue.js, MongoDB, and Laravel"]}]}],"projects":[{"name":"Q-Learning w/ Atari Breakout","type":"Personal Project","field":"AI (Machine Learning)","image":"images/project/8.png","description":"Trained a neural network to play <a href=\"https://gym.openai.com/envs/Breakout-v0/\" target=\"_blank\">OpenAI Gym's Atari Breakout</a> game environment using TensorFlow. After setting the learning-rate and epsilon-probability and running the simulation for 30 episodes (2~ weeks in a VM), the agent started averaging a reward of 145.17. Essentially making it better at the game than me.","tags":["Python","TensorFlow","OpenAI Gym","Jupyter Notebook"],"result":"download/reinforcement.pdf"},{"name":"NavMesh Tutorial","type":"University Project","field":"AI (Pathfinding)","image":"images/project/7.png","description":"Created by following the steps of <a href=\"https://github.com/Brackeys/NavMesh-Tutorial\" target=\"_blank\">Brackey's NavMesh Tutorial</a>. Features an agent that automatically avoids obstacles (both static and dynamic) in a 3D space using Unity's inbuilt <a href=\"https://docs.unity3d.com/Manual/NavMesh-BuildingComponents.html\" target=\"_blank\">NavMesh components</a>. By clicking at locations on the map, the agent calculates the best unobstructed path and moves there.","tags":["C#","Unity","NavMeshComponents"],"source":"https://github.com/FezImSorry/NavMesh_Tutorial"},{"name":"TensorFlow Image Classifier","type":"University Project","field":"AI (Machine Learning)","image":"images/project/9.png","description":"Inspired by the <a href=\"https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0\" target=\"_blank\">TensorFlow for Poets</a> Codelab by Google Developers. Trained the neural network using the Inception V3 Architecture on a repository of rabbit images. By manipulating training parameters, the model achieved an accuracy of up to 99% in distinguishing between four rabbit breeds as well as pictures of unknown objects.","tags":["Python","TensorFlow"],"source":"https://github.com/FezImSorry/COMP_469_Artificial_Intelligence/tree/master/Project%204%20Image%20Classifier"},{"name":"Unity 3D Platformer","type":"Personal Project","field":"Game Development","image":"images/project/5.png","description":"A simple 3D environment which emulates 2D platforming. The player controls a ball to collect coins scattered throughout the level. Allowed me to experiment with character controllers, physics, lighting, texturing, and sound effects.","tags":["Javascript","Unity"],"source":"https://github.com/FezImSorry/3D_Platformer"},{"name":"Unity 2D Platformer","type":"Personal Project","field":"Game Development","image":"images/project/6.png","description":"A purely 2D platforming environment. WIP as I expand its features into a fully-fledged video game. Currently uses placeholder assets from Unity Asset Store and existing video games. Implemented sprite animation, background parallaxing, respawning, and shooting.","tags":["C#","Unity"],"source":"https://github.com/FezImSorry/Biryani_Battle"},{"name":"MEVN Real-Time Chat","type":"Personal Project","field":"Web Engineering","image":"images/project/2.png","description":"Real-time cross-browser chat application. Tested by logging in from two separate browser instances and chatting between them. Single-page application leveraging the MEVN stack and Socket.io.","tags":["HTML5","CSS3","MongoDB","Express.js","Vue.js","Node.js","Socket.io"],"source":"#"},{"name":"Universal Finance Manager","type":"University Project","field":"Software Engineering","image":"images/project/0.png","description":"Android application that provides comprehensive tracking and budgeting of personal finance. Stores user data in a local <a href=\"https://developer.android.com/topic/libraries/architecture/room\" target=\"_blank\">Room</a> database and utilizes <a href=\"https://google.github.io/dagger/\" target=\"_blank\">Dagger dependency injection</a>. Made in an Agile/Scrum development cycle. In a 5-man dev team, I was the scrum master and a developer.","tags":["Java SE 9","Android SDK","XML","Dagger","Scrum"],"source":"https://github.com/FezImSorry/UniversalFinanceManager"},{"name":"Accountabillibuddy","type":"University Project","field":"Software Engineering","image":"images/project/1.png","description":"Desktop application that predicts the profitability of stock market investments. Stock market data is fetched from the Yahoo! Finance API via a <a href=\"https://financequotes-api.com/\" target=\"_blank\">third-party API</a>. User data is stored in a PostgreSQL database hosted on AWS's Relational Database Service. My roles were full-stack development, technical writing, and graphic design.","tags":["Java SE 8","FXML","Yahoo! Finance API","PostgreSQL","AWS RDS"],"source":"https://github.com/FezImSorry/Accountabilibuddy"},{"name":"Swing Breakout Game","type":"University Project","field":"Object Oriented Programming","image":"images/project/10.png","description":"Break-Out style video game with a twist! This time there's two projectiles, each with their own physics, balanced on a swing. Letting either projectile fall decrements the lives counter. This was made to practice OOP and test the limits of Java's Swing library.","tags":["Java SE8","Swing"],"source":"https://github.com/FezImSorry/Java_Swing_Brick-Breaker"},{"name":"Tsarbucks","type":"Personal Project","field":"Web Engineering","image":"images/project/3.png","description":"A fictional coffee shop's web application. Log in as a customer and place orders by adding menu items into your shopping cart. Employees can log in and fulfill said orders. Implemented using a PHP and locally hosted MySQL database via XAMPP and phpMyAdmin. ","tags":["HTML5","CSS3","Bootstrap","JavaScript","PHP","MySQL"],"source":"https://github.com/FezImSorry/Tsarbucks"},{"name":"Online Portfolio","type":"Personal Project","field":"Web Engineering","image":"images/project/4.png","description":"This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Completely accordant with W3C's <a href=\"https://validator.w3.org/nu/?doc=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">HTML5</a> and <a href=\"https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffezimsorry.github.io%2Fcss%2Fstyle.css&profile=css3svg\" target=\"_blank\">CSS3</a> standard, as well as a 90+/100 <a href=\"https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">PageSpeed score</a>.","tags":["HTML5","CSS3","JavaScript","jQuery","JSON"],"source":"https://github.com/FezImSorry/fezimsorry.github.io"}],"blog":[{"title":"First Test Blog Post","date":"2017-08-10","tags":["Pandas"],"content":"<p>Pandas are really sweet.</p> <p>Here's a video of a panda eating sweets.</p> <iframe src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"},{"title":"Second Test Blog Post","date":"2017-08-21","tags":["Pandas","Bananas"],"content":"<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <h2>Do Pandas eat bananas?</h2> <p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"},{"title":"Third Blog Post","date":"2017-08-25","tags":["Testing","Tired","Yay"],"content":"<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"}]}
+{
+  "resume" : [
+    {
+      "header" : "Education",
+      "content" : [
+        {
+          "title" : "University of Southern California",
+          "subtitle" : "Master of Science in Computer Science (Artificial Intelligence)",
+          "date" : "Expected - May 2023",
+          "list" : [
+          ]
+        },
+        {
+          "title" : "California State University, Northridge",
+          "subtitle" : "Bachelor of Science in Computer Science - Cum Laude",
+          "date" : "May 2018",
+          "list" : [
+          ]
+        }
+      ]
+    },
+    {
+      "header" : "Experience",
+      "content" : [
+        {
+          "title" : "Pixerati",
+          "subtitle" : "Software Engineer - Freelance",
+          "date" : "August 2020 - May 2021",
+          "list" : [
+            "Implemented and integrated C++ plugins for Maya to read, extract, and package 3D geometric data to be exported during run-time to render in external applications", 
+            "Ran unit and integration tests to optimize the data extraction process of 3D components in Maya and their consequent reconstruction in a virtual reality environment in an Unreal Engine project"
+          ]
+        },
+        {
+          "title" : "Bento Box Entertainment",
+          "subtitle" : "Information Technology Specialist - Full Time",
+          "date" : "January 2019 - May 2021",
+          "list" : [
+            "Provided hands-on solutions and communicative support for hardware and software to studio personnel. Clients included producers, directors, digital artists, script writers, corporate staff, and IT coworkers",
+            "Tested and deployed Unix shell scripts for server-side software installation, Munki package distribution, and Active Directory administration",
+            "<a href=\"https:\/\/www.imdb.com\/name\/nm11636236\/\" target=\"_blank\">IMDb Show credits (not up to date)<\/a>"
+          ]
+        }
+      ]
+    },
+    {
+      "header" : "Skills",
+      "content" : [
+        {
+          "title" : "Computer Languages & Frameworks",
+          "list" : [
+            "OOP, Algorithms and Data Structures: C++14, Python 3.6, Java SE9", 
+            "Machine Learning: CNN, LSTM, Q-Learning, TensorFlow, OpenAI Gym, AllenNLP", 
+            "Web Stack: JavaScript ES6, AJAX, Node.js, Socket.io, React.js, MySQL, PHP"
+          ]
+        },
+        {
+          "title" : "Computer Software & Hardware:",
+          "list" : [
+            "Software: Unity, Android SDK, phpMyAdmin, PostgreSQL, Photoshop", 
+            "Hardware & Assembly: Verilog HDL, MIPS Assembly Language"
+          ]
+        },
+        {
+          "title" : "Natural Languages:",
+          "list" : [
+            "English - Native Fluency",
+            "Urdu - Native Fluency"
+          ]
+        }
+      ]
+    },
+    {
+      "header" : "Extracurricular",
+      "content" : [
+      	{
+          "title" : "TreePeople",
+          "subtitle" : "Volunteer",
+          "date" : "December 2020",
+          "list" : [
+          	"Environmental conservation effort at Paramount Ranch, Agoura Hills, CA",
+          	"Planted Walnut and Willow tree saplings to restore natural habitat", 
+			"Weeded harmful grass to prevent the overabundance of natural wildfires"
+          ]
+        },
+        {
+          "title" : "Los Angeles International Music & Arts Academy",
+          "subtitle" : "Volunteer Organizer",
+          "date" : "August 2019",
+          "list" : [
+          	"Support event organizer at LAIMA Academy's 2019 summer retreat",
+          	"Facilitated the organization of a digital animation workshop for primary school children",
+          	"Tech support for relevant hardware and software"
+          ]
+        },
+        {
+          "title" : "Matador Emerging Technology & Arts Lab",
+          "subtitle" : "Backend Development",
+          "date" : "January 2017 - January 2018",
+          "list" : [
+            "Web development courses and meetups hosted by CSUN's META+LAB", 
+            "Deployed web services utilized at the university involving Node.js, Express.js, Vue.js, MongoDB, and Laravel"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects" : [
+    {
+      "name" : "Q-Learning w/ Atari Breakout",
+      "type" : "Personal Project",
+      "field" : "AI (Machine Learning)",
+      "image" : "images/project/8.png",
+      "description" : "Trained a neural network to play <a href=\"https:\/\/gym.openai.com\/envs\/Breakout-v0\/\" target=\"_blank\">OpenAI Gym's Atari Breakout<\/a> game environment using TensorFlow. After setting the learning-rate and epsilon-probability and running the simulation for 30 episodes (2~ weeks in a VM), the agent started averaging a reward of 145.17. Essentially making it better at the game than me.",
+      "tags" : ["Python", "TensorFlow", "OpenAI Gym", "Jupyter Notebook"],
+      "result" : "download/reinforcement.pdf"
+    },
+    {
+      "name" : "NavMesh Tutorial",
+      "type" : "University Project",
+      "field" : "AI (Pathfinding)",
+      "image" : "images/project/7.png",
+      "description" : "Created by following the steps of <a href=\"https:\/\/github.com\/Brackeys\/NavMesh-Tutorial\" target=\"_blank\">Brackey's NavMesh Tutorial<\/a>. Features an agent that automatically avoids obstacles (both static and dynamic) in a 3D space using Unity's inbuilt <a href=\"https:\/\/docs.unity3d.com\/Manual\/NavMesh-BuildingComponents.html\" target=\"_blank\">NavMesh components<\/a>. By clicking at locations on the map, the agent calculates the best unobstructed path and moves there.",
+      "tags" : ["C#", "Unity", "NavMeshComponents"],
+      "source" : "https://github.com/FezImSorry/NavMesh_Tutorial"
+    },
+    {
+      "name" : "TensorFlow Image Classifier",
+      "type" : "University Project",
+      "field" : "AI (Machine Learning)",
+      "image" : "images/project/9.png",
+      "description" : "Inspired by the <a href=\"https:\/\/codelabs.developers.google.com\/codelabs\/tensorflow-for-poets\/#0\" target=\"_blank\">TensorFlow for Poets<\/a> Codelab by Google Developers. Trained the neural network using the Inception V3 Architecture on a repository of rabbit images. By manipulating training parameters, the model achieved an accuracy of up to 99% in distinguishing between four rabbit breeds as well as pictures of unknown objects.",
+      "tags" : ["Python", "TensorFlow"],
+      "source" : "https://github.com/FezImSorry/COMP_469_Artificial_Intelligence/tree/master/Project%204%20Image%20Classifier"
+    }, 
+    {
+      "name" : "Unity 3D Platformer",
+      "type" : "Personal Project",
+      "field" : "Game Development",
+      "image" : "images/project/5.png",
+      "description" : "A simple 3D environment which emulates 2D platforming. The player controls a ball to collect coins scattered throughout the level. Allowed me to experiment with character controllers, physics, lighting, texturing, and sound effects.",
+      "tags" : ["Javascript", "Unity"],
+      "source" : "https://github.com/FezImSorry/3D_Platformer"
+    },
+    {
+      "name" : "Unity 2D Platformer",
+      "type" : "Personal Project",
+      "field" : "Game Development",
+      "image" : "images/project/6.png",
+      "description" : "A purely 2D platforming environment. WIP as I expand its features into a fully-fledged video game. Currently uses placeholder assets from Unity Asset Store and existing video games. Implemented sprite animation, background parallaxing, respawning, and shooting.",
+      "tags" : ["C#", "Unity"],
+      "source" : "https://github.com/FezImSorry/Biryani_Battle"
+    },
+    {
+      "name" : "MEVN Real-Time Chat",
+      "type" : "Personal Project",
+      "field" : "Web Engineering",
+      "image" : "images/project/2.png",
+      "description" : "Real-time cross-browser chat application. Tested by logging in from two separate browser instances and chatting between them. Single-page application leveraging the MEVN stack and Socket.io.",
+      "tags" : ["HTML5", "CSS3", "MongoDB", "Express.js", "Vue.js", "Node.js", "Socket.io"],
+      "source" : "#"
+    },
+    {
+      "name" : "Universal Finance Manager",
+      "type" : "University Project",
+      "field" : "Software Engineering",
+      "image" : "images/project/0.png",
+      "description" : "Android application that provides comprehensive tracking and budgeting of personal finance. Stores user data in a local <a href=\"https:\/\/developer.android.com\/topic\/libraries\/architecture\/room\" target=\"_blank\">Room<\/a> database and utilizes <a href=\"https:\/\/google.github.io\/dagger\/\" target=\"_blank\">Dagger dependency injection<\/a>. Made in an Agile/Scrum development cycle. In a 5-man dev team, I was the scrum master and a developer.",
+      "tags" : [ "Java SE 9", "Android SDK", "XML", "Dagger", "Scrum"],
+      "source" : "https://github.com/FezImSorry/UniversalFinanceManager"
+    },
+    {
+      "name" : "Accountabillibuddy",
+      "type" : "University Project",
+      "field" : "Software Engineering",
+      "image" : "images/project/1.png",
+      "description" : "Desktop application that predicts the profitability of stock market investments. Stock market data is fetched from the Yahoo! Finance API via a <a href=\"https:\/\/financequotes-api.com\/\" target=\"_blank\">third-party API<\/a>. User data is stored in a PostgreSQL database hosted on AWS's Relational Database Service. My roles were full-stack development, technical writing, and graphic design.",
+      "tags" : ["Java SE 8", "FXML", "Yahoo! Finance API", "PostgreSQL", "AWS RDS"],
+      "source" : "https://github.com/FezImSorry/Accountabilibuddy"
+    },
+    {
+      "name" : "Swing Breakout Game",
+      "type" : "University Project",
+      "field" : "Object Oriented Programming",
+      "image" : "images/project/10.png",
+      "description" : "Break-Out style video game with a twist! This time there's two projectiles, each with their own physics, balanced on a swing. Letting either projectile fall decrements the lives counter. This was made to practice OOP and test the limits of Java's Swing library.",
+      "tags" : ["Java SE8", "Swing"],
+      "source" : "https://github.com/FezImSorry/Java_Swing_Brick-Breaker"
+    },
+    {
+      "name" : "Tsarbucks",
+      "type" : "Personal Project",
+      "field" : "Web Engineering",
+      "image" : "images/project/3.png",
+      "description" : "A fictional coffee shop's web application. Log in as a customer and place orders by adding menu items into your shopping cart. Employees can log in and fulfill said orders. Implemented using a PHP and locally hosted MySQL database via XAMPP and phpMyAdmin. ",
+      "tags" : ["HTML5", "CSS3", "Bootstrap", "JavaScript", "PHP", "MySQL"],
+      "source" : "https://github.com/FezImSorry/Tsarbucks"
+    },
+    {
+      "name" : "Online Portfolio",
+      "type" : "Personal Project",
+      "field" : "Web Engineering",
+      "image" : "images/project/4.png",
+      "description" : "This website! Created for personal use and to perfect my abilities in classical front-end design (HTML/CSS/JS). All content is rendered to the view from external JSON data, allowing for easier updates & maintenance. Completely accordant with W3C's <a href=\"https:\/\/validator.w3.org\/nu\/?doc=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">HTML5<\/a> and <a href=\"https:\/\/jigsaw.w3.org\/css-validator\/validator?uri=https%3A%2F%2Ffezimsorry.github.io%2Fcss%2Fstyle.css&profile=css3svg\" target=\"_blank\">CSS3<\/a> standard, as well as a 90+/100 <a href=\"https:\/\/developers.google.com\/speed\/pagespeed\/insights\/?url=https%3A%2F%2Ffezimsorry.github.io%2F\" target=\"_blank\">PageSpeed score<\/a>.",
+      "tags" : ["HTML5", "CSS3", "JavaScript", "jQuery", "JSON"],
+      "source" : "https://github.com/FezImSorry/fezimsorry.github.io"
+    }
+  ],
+  "blog" : [
+    {
+      "title" : "First Test Blog Post",
+      "date" : "2017-08-10",
+      "tags" : ["Pandas"],
+      "content" : "<p>Pandas are really sweet.</p> <p>Here's a video of a panda eating sweets.</p> <iframe src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
+    },
+    {
+      "title" : "Second Test Blog Post",
+      "date" : "2017-08-21",
+      "tags" : ["Pandas", "Bananas"],
+      "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <h2>Do Pandas eat bananas?</h2> <p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p> <iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
+    },
+    {
+      "title" : "Third Blog Post",
+      "date" : "2017-08-25",
+      "tags" : ["Testing", "Tired", "Yay"],
+      "content" : "<p>Do Pandas eat bananas? Check out this short video that shows that yes! pandas do seem to really enjoy bananas!</p><iframe src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" allowfullscreen=\"\" width=\"560\" height=\"315\" frameborder=\"0\"></iframe>"
+    }
+  ]
+}
